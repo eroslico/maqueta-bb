@@ -147,6 +147,21 @@ nav.close li a .link-name {
   color: var(--primary-color);
 }
 
+.logout-mode li a:hover i,
+.logout-mode li a:hover .link-name {
+  color: var(--primary-color);
+}
+
+.logout-mode li a:hover:before {
+  content: "";
+  position: absolute;
+  left: -7px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
 body.dark .nav-links li a:hover i,
 body.dark .nav-links li a:hover .link-name {
   color: var(--text-color);

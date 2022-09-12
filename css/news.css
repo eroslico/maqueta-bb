@@ -29,23 +29,43 @@ body.dark {
   --box3-color: #9e80b9;
   --title-icon-color: #ccc;
 
-  --box-shadow: 0 0.1px 2px rgb(255, 255, 255);
+  --box-shadow: 0 0.1px 2px #3a3b3c;
 }
 
 .boxes .newsbox {
   display: flex;
+  justify-content: center;
+  margin-left: 350px;
   align-items: center;
-  height: 50vh;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  height: 900px;
+  margin-top: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+body.dark .boxes .newsbox {
+  display: flex;
+  justify-content: center;
+  margin-left: 350px;
+  align-items: center;
+  flex-direction: column;
+  height: 900px;
+  margin-top: 20px;
+  background-color: #3a3b3c;
+}
+
+.textnews {
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .box {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   border-radius: 12px;
-  width: calc(100% / 3 - 15px);
   padding: 15px 60px;
+  margin-bottom: 20px;
 }
 
 .box span {
