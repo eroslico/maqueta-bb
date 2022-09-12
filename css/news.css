@@ -29,14 +29,14 @@ body.dark {
   --box3-color: #9e80b9;
   --title-icon-color: #ccc;
 
-  --box-shadow: 0 5px 10px rgb(255, 255, 255);
+  --box-shadow: 0 0.1px 2px rgb(255, 255, 255);
 }
 
 .boxes .newsbox {
   display: flex;
   align-items: center;
   height: 50vh;
-  box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .box {
@@ -46,6 +46,10 @@ body.dark {
   border-radius: 12px;
   width: calc(100% / 3 - 15px);
   padding: 15px 60px;
+}
+
+.box span {
+  color: var(--text-color);
 }
 
 .box img {
