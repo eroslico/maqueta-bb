@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <title>LS Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms">
+        <div class="form login">
+          <div class="img">
+            <span class="title">Login</span>
+            <img src="img/claro.png" alt="" />
+          </div>
+          <form action="#">
+            <div class="input-field">
+              <input
+                id="email"
+                type="text"
+                placeholder="Enter your email"
+                required
+              />
+              <i class="uil uil-envelope-alt icon"></i>
+            </div>
+
+            <div class="input-field">
+              <input
+                id="pass"
+                type="password"
+                class="password"
+                placeholder="Enter your password"
+                required
+              />
+              <i class="uil uil-lock icon"></i>
+              <i class="uil uil-eye-slash showHidePw"></i>
+            </div>
+
+            <div class="checkbox-text">
+              <div class="checkbox-content">
+                <input type="checkbox" id="logCheck" />
+                <label for="logCheck" class="text">Remember me</label>
+              </div>
+
+              <a href="#" class="text"> Forgot password?</a>
+            </div>
+
+            <div class="input-field button">
+              <input id="log" type="button" value="Login" />
+            </div>
+
+            <div class="error hide">Invalid email or password</div>
+
+            <div class="login-singup">
+              <span class="text"
+                >Problems logging in?
+                <a href="#" class="text singup-link">Contact us</a>
+              </span>
+            </div>
+          </form>
+        </div>
+
+        <div class="form singup">
+          <div class="img">
+            <span class="title">Help</span>
+            <img src="img/claro.png" alt="" />
+          </div>
+          <form action="#">
+            <div class="input-field">
+              <input type="text" placeholder="Enter your email" required />
+              <i class="uil uil-envelope-alt icon"></i>
+            </div>
+
+            <div class="input-field button">
+              <input type="button" value="Send" />
+            </div>
+
+            <div class="login-singup">
+              <span class="text"
+                >We will send more information to your email
+              </span>
+              <span class="text"
+                ><a href="#" class="text login-link">Go back</a></span
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
