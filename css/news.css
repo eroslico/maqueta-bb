@@ -42,21 +42,19 @@ body.dark {
   width: 100%;
   height: 40vh;
   box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
-  word-break: break-all;
 }
 
 .box {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  word-break: break-all;
-  margin: 20px;
-  color: var(--text-color);
+  align-items: center;
+  border-radius: 12px;
+  width: calc(100% / 3 - 15px);
+  padding: 15px 60px;
 }
 
-.boxes .newsbox img {
-  display: block;
+img {
   margin-top: 20px;
-  width: 250px;
+  max-width: 200px;
+  max-height: 200px;
 }
