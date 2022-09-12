@@ -319,7 +319,6 @@ nav.close ~ .dashboard .top {
 }
 
 .dash-content .title i {
-  position: relative;
   height: 35px;
   width: 35px;
   background-color: var(--primary-color);

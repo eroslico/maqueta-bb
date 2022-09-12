@@ -7,8 +7,8 @@ modeToggle.addEventListener("click", () => {
   body.classList.toggle("dark");
   const img = document.getElementById("logo");
   img.src.includes("claro")
-    ? (img.src = "css/img/oscuro.png")
-    : (img.src = "css/img/claro.png");
+    ? (img.src = "../css/img/oscuro.png")
+    : (img.src = "../css/img/claro.png");
 });
 
 sidebarToggle.addEventListener("click", () => {
