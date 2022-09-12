@@ -347,6 +347,10 @@ nav.close ~ .dashboard .top {
   height: 100vh;
 }
 
+.boxes span {
+  color: var(--text-color);
+}
+
 @media (max-width: 1000px) {
   nav {
     width: 73px;
