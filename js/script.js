@@ -31,7 +31,7 @@ goBack.addEventListener("click", () => {
   container.classList.remove("active");
 });
 
-// Esto simularia una base de datos guarda la contraseña en texto plano aunque por cuestiones seguridad no se haria asi.
+// Esto simularia una base de datos. Guardo la contraseña en texto plano aunque por cuestiones seguridad no se haria asi.
 const usuario = {
   email: "admin@bb.vision",
   password: "admin",
