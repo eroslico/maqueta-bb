@@ -328,8 +328,12 @@ nav.close ~ .dashboard .top {
   transition: var(--tran-03);
 }
 
+.dashboard .dash-content {
+  padding-top: 22px;
+}
+
 body.dark .dashboard .dash-content {
-  padding-top: 50px;
+  padding-top: 22px;
 }
 
 .dash-content .title {
