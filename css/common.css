@@ -22,8 +22,6 @@
   --tran-05: all 0.5s ease;
   --tran-03: all 0.3s ease;
   --tran-03: all 0.2s ease;
-
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -41,8 +39,6 @@ body.dark {
   --box2-color: #e2c379a1;
   --box3-color: #9e80b9;
   --title-icon-color: #ccc;
-
-  --box-shadow: 0 5px 10px rgb(255, 255, 255);
 }
 
 nav {
@@ -149,11 +145,6 @@ nav.close li a .link-name {
 .nav-links li a:hover i,
 .nav-links li a:hover .link-name {
   color: var(--primary-color);
-}
-
-body.dark .nav-links li a:hover i,
-body.dark .nav-links li a:hover .link-name {
-  color: var(--text-color);
 }
 
 .logout-mode li a:hover i,
@@ -327,7 +318,17 @@ nav.close ~ .dashboard .top {
   text-decoration: none;
 }
 
-.dashboard .dash-content {
+.menu:hover {
+  color: var(--primary-color);
+  transition: var(--tran-03);
+}
+
+.menu:hover {
+  color: var(--primary-color);
+  transition: var(--tran-03);
+}
+
+body.dark .dashboard .dash-content {
   padding-top: 50px;
 }
 
@@ -358,69 +359,6 @@ nav.close ~ .dashboard .top {
 
 .dash-content .boxes {
   display: flex;
-  width: 100%;
-  height: 100vh;
-}
-
-.boxes span {
-  color: var(--text-color);
-}
-
-@media (max-width: 1000px) {
-  nav {
-    width: 73px;
-  }
-  nav.close {
-    width: 280px;
-  }
-  nav .logo_name {
-    opacity: 0;
-    pointer-events: none;
-  }
-  nav.close .logo_name {
-    opacity: 1;
-    pointer-events: auto;
-  }
-  nav li a .link-name {
-    opacity: 0;
-    pointer-events: none;
-  }
-  nav.close li a .link-name {
-    opacity: 1;
-    pointer-events: auto;
-  }
-  nav ~ .dashboard {
-    left: 73px;
-    width: calc(100% - 73px);
-  }
-  nav.close ~ .dashboard {
-    left: 280px;
-    width: calc(100% - 280px);
-  }
-  nav ~ .dashboard .top {
-    left: 73px;
-    width: calc(100% - 73px);
-  }
-  nav.close ~ .dashboard .top {
-    left: 280px;
-    width: calc(100% - 280px);
-  }
-}
-
-@media (max-width: 900px) {
-  .dash-content .activity .activity-data {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    overflow-y: scroll;
-    padding: 5px;
-  }
-  .dash-content .boxes {
-    flex-direction: column;
-    gap: 10px;
-  }
-  .dash-content .boxes .box {
-    width: 80%;
-  }
+  align-items: center;
+  justify-content: space-between;
 }

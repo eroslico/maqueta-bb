@@ -162,11 +162,6 @@ nav.close li a .link-name {
   background-color: var(--primary-color);
 }
 
-body.dark .nav-links li a:hover i,
-body.dark .nav-links li a:hover .link-name {
-  color: var(--text-color);
-}
-
 .menu-items .logout-mode {
   padding-top: 10px;
   border-top: 1px solid var(--border-color);
@@ -323,7 +318,12 @@ nav.close ~ .dashboard .top {
   text-decoration: none;
 }
 
-.dashboard .dash-content {
+.menu:hover {
+  color: var(--primary-color);
+  transition: var(--tran-03);
+}
+
+body.dark .dashboard .dash-content {
   padding-top: 50px;
 }
 
