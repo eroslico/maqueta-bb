@@ -18,7 +18,7 @@ const newsSpan = [
 ];
 
 fetch(
-  "https://newsdata.io/api/1/news?apikey=pub_111669ea078d50f807888ca293320d6b8b060&language=es,en&category=entertainment"
+  "https://newsdata.io/api/1/news?apikey=pub_11181f75d27623ed2bc96b266d21f0672fb0b&language=es,en&category=entertainment"
 )
   .then(function (response) {
     return response.json();
