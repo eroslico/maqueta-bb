@@ -38,6 +38,7 @@ body.dark {
   margin-left: 350px;
   align-items: center;
   flex-direction: column;
+  min-width: 1000px;
   height: 900px;
   margin-top: 20px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -49,14 +50,10 @@ body.dark .boxes .newsbox {
   margin-left: 350px;
   align-items: center;
   flex-direction: column;
+  min-width: 1000px;
   height: 900px;
   margin-top: 20px;
   background-color: #3a3b3c;
-}
-
-.textnews {
-  font-size: 24px;
-  font-weight: 500;
 }
 
 .box {

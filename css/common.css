@@ -366,3 +366,8 @@ body.dark .dashboard .dash-content {
   align-items: center;
   justify-content: space-between;
 }
+
+.work-in-progress {
+  font-weight: 500;
+  color: var(--text-color);
+}
