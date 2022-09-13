@@ -51,7 +51,7 @@ body.dark {
   flex-direction: column;
   align-items: center;
   width: 20%;
-  height: 65vh;
+  height: 550px;
   padding: 15px 20px;
   background-color: var(--primary-color);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -64,7 +64,7 @@ body.dark .boxesprof .profile1 {
   flex-direction: column;
   align-items: center;
   width: 20%;
-  height: 65vh;
+  height: 550px;
   padding: 15px 20px;
   background-color: #a05c74;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -92,7 +92,7 @@ body.dark .boxesprof .profile1 {
   margin-left: 20px;
   border-radius: 12px;
   width: 30%;
-  height: 65vh;
+  height: 550px;
   padding: 15px 20px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   align-items: center;
